@@ -3,14 +3,14 @@ package com.jerryD.ArrayQueue
 import scala.io.StdIn
 
 /*
-    队列
+    环形队列
  */
-object ArrayQueueMain {
+object CircleQueueMain {
 
   def main(args: Array[String]): Unit = {
     var key = ""
     //初始化一个队列
-    val queue = new ArrayQueue(3)
+    val queue = new CircleQueue(4)
     while (true){
       println("add : 表示添加数据")
       println("get : 表示取出数据")

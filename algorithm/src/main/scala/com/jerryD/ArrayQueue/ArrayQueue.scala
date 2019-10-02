@@ -2,9 +2,9 @@ package com.jerryD.ArrayQueue
 
 
 // 使用数组模拟队列
-class ArrayQueue(araMaxSize:Int){
+class ArrayQueue(arrMaxSize:Int){
 
-  val maxSize = araMaxSize
+  val maxSize = arrMaxSize
   val arr = new Array[Int](maxSize) // 该数组存放数据，模拟队列
 
   var front = -1 // 指向队列头部 , 分析出Front 是指向队列数据的前一个位置(不包含数据)
@@ -52,6 +52,13 @@ class ArrayQueue(araMaxSize:Int){
     }
   }
 
-
+  // 查看队列的头元素，但是不是改变队列
+  def headQueue(): Any = {
+    if (isEmpty()){
+      return new Exception("队列为空")
+    }
+    // 不要改变front的值
+    return arr(front+1)
+  }
 
 }

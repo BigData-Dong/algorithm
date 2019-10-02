@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc88ce03-ed64-4556-bfa0-22711d93a9b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sort/SortTestHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sort/selectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jerryD/ArrayQueue/ArrayQueue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/jerryD/ArrayQueue/ArrayQueue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jerryD/ArrayQueue/ArrayQueueMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/jerryD/ArrayQueue/ArrayQueueMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/ArrayQueueMain$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/ArrayQueueMain$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
       <list>
         <option value="Class" />
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -79,9 +78,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayQueueMain">
+  <component name="RunManager" selected="Application.CircleQueueMain">
     <configuration name="ArrayQueueMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jerryD.ArrayQueue.ArrayQueueMain" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jerryD.ArrayQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleQueueMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerryD.ArrayQueue.CircleQueueMain" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -134,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleQueueMain" />
         <item itemvalue="Application.ArrayQueueMain" />
         <item itemvalue="Application.SparseArr" />
         <item itemvalue="Application.selectionSort" />
@@ -157,7 +170,8 @@
       <workItem from="1569766913659" duration="1906000" />
       <workItem from="1569918596116" duration="1341000" />
       <workItem from="1569922663151" duration="5140000" />
-      <workItem from="1569994968872" duration="2175000" />
+      <workItem from="1569994968872" duration="3239000" />
+      <workItem from="1570014503555" duration="4617000" />
     </task>
     <servers />
   </component>
