@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc88ce03-ed64-4556-bfa0-22711d93a9b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jerryD/ArrayQueue/CircleQueue.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jerryD.DoubleLinkedList" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -75,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListMain">
+  <component name="RunManager" selected="Application.Josephu">
     <configuration name="ArrayQueueMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jerryD.ArrayQueue.ArrayQueueMain" />
       <module name="algorithm" />
@@ -102,6 +106,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DoubleLinkedListMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerryD.DoubleLinkedList.DoubleLinkedListMain" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jerryD.DoubleLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerryD.josephu.Josephu" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jerryD.josephu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkedListMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jerryD.LinkedList.SingleLinkedListMain" />
       <module name="algorithm" />
@@ -115,39 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArr" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jerryD.SparseArray.SparseArr" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jerryD.SparseArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sort.selectionSort" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephu" />
+        <item itemvalue="Application.DoubleLinkedListMain" />
         <item itemvalue="Application.SingleLinkedListMain" />
         <item itemvalue="Application.CircleQueueMain" />
         <item itemvalue="Application.ArrayQueueMain" />
-        <item itemvalue="Application.SparseArr" />
-        <item itemvalue="Application.selectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,9 @@
       <workItem from="1569922663151" duration="5140000" />
       <workItem from="1569994968872" duration="3239000" />
       <workItem from="1570014503555" duration="5793000" />
-      <workItem from="1570094162970" duration="6458000" />
+      <workItem from="1570094162970" duration="8020000" />
+      <workItem from="1570181397178" duration="7908000" />
+      <workItem from="1570267399904" duration="3420000" />
     </task>
     <servers />
   </component>
