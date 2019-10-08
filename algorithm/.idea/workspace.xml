@@ -55,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea-project2/umeng" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -79,13 +79,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Josephu">
-    <configuration name="ArrayQueueMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jerryD.ArrayQueue.ArrayQueueMain" />
+  <component name="RunManager" selected="Application.CalculatorMain">
+    <configuration name="ArrayStackMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerryD.stack.ArrayStackMain" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jerryD.ArrayQueue.*" />
+          <option name="PATTERN" value="com.jerryD.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleQueueMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jerryD.ArrayQueue.CircleQueueMain" />
+    <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerryD.stack.CalculatorMain" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jerryD.ArrayQueue.*" />
+          <option name="PATTERN" value="com.jerryD.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorMain" />
+        <item itemvalue="Application.ArrayStackMain" />
         <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkedListMain" />
         <item itemvalue="Application.SingleLinkedListMain" />
-        <item itemvalue="Application.CircleQueueMain" />
-        <item itemvalue="Application.ArrayQueueMain" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,10 @@
       <workItem from="1570014503555" duration="5793000" />
       <workItem from="1570094162970" duration="8020000" />
       <workItem from="1570181397178" duration="7908000" />
-      <workItem from="1570267399904" duration="3420000" />
+      <workItem from="1570267399904" duration="4257000" />
+      <workItem from="1570370108753" duration="86000" />
+      <workItem from="1570446234107" duration="1842000" />
+      <workItem from="1570451312302" duration="3538000" />
     </task>
     <servers />
   </component>
