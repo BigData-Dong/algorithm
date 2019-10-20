@@ -7,7 +7,7 @@ object CalculatorMain{
 
   def main(args: Array[String]): Unit = {
 
-    val expression = "3+2+2*6-2"
+    val expression = "7*2*2-5+1-5+3-4"
     // 数字栈
     val numStack = new ArrayStackTo(10)
     // 符号栈
@@ -19,6 +19,7 @@ object CalculatorMain{
     var oper = 0
     var res = 0
     var ch = ' '
+    var keepNum = "" // 再进行扫描时，保存上次的数字ch, 并进行凭借
     breakable{
       while (true){
 
@@ -47,7 +48,21 @@ object CalculatorMain{
           }
         }else{
           // 是一个数
-          numStack.push((ch + "").toInt)
+          // 处理多位数的逻辑
+          keepNum += ch
+
+          // 如果ch 已经是expression的最后一个字符
+          if (index == expression.length - 1){
+            numStack.push(keepNum.toInt)
+          }else{
+            // 判断ch 的下一个字符是不是数字,如果是数字,则进行一次扫描,如果是操作符,就直接入栈
+            // 看到expresson的下一个字符时,不要真正的移动index,只是探测一下
+            if (operStack.isOper(expression.substring(index+1,index+2)(0))){
+              numStack.push(keepNum.toInt)
+              keepNum = "" // 清空
+            }
+          }
+          //numStack.push((ch + "").toInt)
         }
         index += 1
         // 判断是否到表达式的最后
